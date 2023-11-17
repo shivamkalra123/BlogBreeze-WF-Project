@@ -1,0 +1,372 @@
+*{
+    margin:0px;
+}
+.content{
+   height:auto;
+   display:flex;
+   justify-content: space-between;
+    background-color:#f8f7f3;
+    padding: 40px 200px 90px;
+}
+
+.heading{
+    color:#2B2B2B;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1em;
+    
+}
+
+.par{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding:10px 0px 10px;
+    
+    color:#2B2B2B;
+    font-family:'Poppins',sans-serif;
+    margin-bottom:20px;
+
+}
+.aboutRajeev{
+    display:flex;
+    align-items: center;
+}
+.rajeevPic{
+    margin:20px 10px;
+    width: 6.5%;
+    height:5%;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+  
+
+
+}
+.aboutHeading{
+    color:#2B2B2B;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    font-weight: 600;
+    margin: 0 0 20px;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+
+}
+
+
+
+/*email box and join button*/
+.top .email-box {
+  width: 660px; /* Adjust the width to your desired value */
+  /* Additional styling properties */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 10px;
+  padding: 10px ;
+
+  /* Add other styles as needed */
+}
+.top .email-box input{
+
+    padding: 20px 22px;
+    border-radius: 2px;
+    background-color: transparent;
+    
+    border: 1px solid rgb(85, 85, 85,0.7);
+    box-sizing: border-box;
+  color: white;
+    width: 60%;
+    height: 50px;
+
+    transition: all 0.2s ease;
+    
+  
+}
+
+
+
+
+.top .email-box input::placeholder {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.top .email-box input:focus {
+  outline: none;
+  border: 1px solid purple;
+
+}
+
+.top .email-box .btn {
+  margin-left: -75px;
+  color: white;
+  padding: 10px 15px;
+  background-color: purple;
+  border-radius: 3px;
+  border: none;
+  font-weight: 800;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-size: 10px;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.top .email-box .btn:hover {
+  background-color: #5d2172;
+}
+
+.top .email-box .btn:active {
+  background-color: #5d2172;
+}
+
+
+
+/*Articles area*/
+.articles a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.articles a:active{
+  color: inherit
+}
+
+
+
+.articles{
+  background-color: white;
+  padding: 27px 11.5rem;
+}
+
+.articles .divider{
+  background-color: purple;
+  height: 4px;
+  width: 115px;
+  margin-bottom: 13px;
+}
+
+.articles .heading{
+  color: #2b2b2b;
+  margin-bottom: 15px;
+}
+
+.articles .hd1{
+  font-size: 28px;
+  font-weight: 600;
+ 
+}
+
+.hd2{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.grid-item {
+  padding: 0;
+  margin-bottom: 35px;
+  margin-right: 35px;
+  
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  height: 470px;
+  width: 350px;
+  overflow: hidden;
+
+}
+
+.grid-item:hover img{
+  transform: scale(1.2);
+  
+}
+
+.grid-item .image {
+  object-fit: cover;
+}
+.grid-item img{
+  width: 355px;
+  height: 195px;
+  object-fit:cover;
+  
+
+  transition: all 0.2s;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.grid-item .article-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  
+  padding: 5px 20px;
+
+  z-index: 100;
+  background-color: white;
+}
+
+.grid-item .article-desc .d1{
+  text-align: left;
+  font-weight: 600;
+  color: #2b2b2b;
+
+  font-size: 22px;
+  line-height: 1.3;
+
+  cursor: pointer;
+
+  transition: all 0.15s ease-in-out;
+}
+.grid-item .article-desc .d1:hover{
+  color: #0d6efd;
+}
+
+.grid-item .article-desc .d2{
+  text-align: left;
+  color: #2b2b2b;
+
+  font-size: 14.5px;
+  margin-top: 12px;
+  line-height: 1.8;
+
+}
+
+
+.grid-item .article-desc .d3{
+  text-align: left;
+  font-weight: 700;
+  color: purple;
+  margin-top: 9px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+  
+}
+
+
+
+/* EXPLORE */
+
+.explore a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.explore a:active{
+  color: inherit
+}
+
+.explore{
+  height: 375px;
+  padding: 2rem 11.7rem 6.5rem 11.7rem;
+
+  display: flex;
+
+  
+}
+
+.explore-left{
+  color: #2b2b2b;
+  width: 25%;
+}
+
+
+.explore-left .divider{
+  background-color: purple;
+  height: 4px;
+  width: 95px;
+  
+}
+
+
+.explore-left .heading{
+  font-size: 36.8px;
+  font-weight: 600;
+  margin-top: 20px;
+  
+  line-height: 1;
+}
+
+.explore-left .desc{
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+.explore-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+
+  width: 75%;
+  margin-left: 8px;
+
+  color: #2b2b2b;
+ 
+}
+
+.explore-right .card{
+  margin-right: 1.1rem;
+}
+
+
+.explore-right .card .text{
+  font-weight: 600;
+  line-height: 1;
+  font-size: 18px;
+
+  margin-top: 10px;
+
+  width: 100%;
+}
+
+
+
+.explore-right .card img{
+  width: 270px;
+
+}
+
+/*right Side Pic*/
+.pic{
+    border-radius: 75% 55% 90% 95%;
+    
+    width:450px;
+    height:400px;
+    
+}

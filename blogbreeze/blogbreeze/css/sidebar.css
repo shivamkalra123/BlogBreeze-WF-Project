@@ -1,0 +1,169 @@
+
+
+/*****Sidebar*****/
+
+.wholeSidebar{
+    position: relative;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top:10px;
+    padding-left:0.9rem;
+    
+  
+}
+
+/*vertical bar*/
+
+.divider {
+    border-left: 1px solid rgb(204, 204, 204,0.6);
+    height:100%;
+    position: absolute;
+    left: 0.9%;
+    
+  }
+
+/*Search Bar*/
+.inputContainer{
+    padding-top:10px;
+    padding-left:20px;
+    
+}
+.labelSearch{
+    font-size: 0.8rem;
+    font-weight: 700;
+    
+ }
+.inputSearch{
+    height: 1.6rem;
+    opacity: 0.6;
+    padding: 6px 10px ;
+    width: 12rem;
+
+    
+    align-items: center;
+ }
+ .linkSearch{
+    text-decoration: none;
+    border: #5d2172 solid 1px;
+    padding: 12px 10px;
+    background-color: purple;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+/*flex aboutAuthor = all headings and vertical for purple border*/
+.aboutAuthor {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 20px;
+  
+}
+.vertical {
+    border-left: 3px solid purple;
+    height: 0.8rem;
+}
+.aboutHeading{
+    margin: 0px;
+    font-size: 0.81rem;
+    padding-left: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*sidebarImage*/
+.rajeevImage{
+    height: auto;
+    vertical-align: middle;
+    max-width: 100%;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left:20px;
+    
+}
+
+/*Rajeev content below image(heading and subtitle)*/
+.Rajeev{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 16px 0 10px;
+}
+.innerhead{
+    text-align: center;
+    font-size: 13px;
+}
+
+/*newsletter content*/
+.newsletter{
+    padding-left:10px;
+    font-size: 13px;
+    padding-left:20px;
+}
+
+/*email box and join button*/
+.email-box{
+    padding-top:10px;
+    padding-left:20px;
+}
+.input-wrapper {
+   
+    display: flex;
+    align-items: center;
+}
+
+.email-box input {
+    flex: 1; 
+}
+.btn1{
+    margin-left: -65px;
+   background-color: purple;
+   color: white;
+
+    text-transform: uppercase;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*image facebook*/
+.facebook{
+    padding-left: 20px;
+    
+    height: 50px;
+    width: 50px;
+}
+
+/* All Recent post */
+.blogContainer{
+    margin-left:20px;
+    padding: 10px 0px 10px;
+}
+.imgHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.thumbnail{
+    width: 70px;
+    height: 70px;
+    padding: 10px 10px;
+}
+.blog_subtitle{
+    font-size: 12px;
+    font-weight: 200;
+}
+.blog_Head{
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+
+
