@@ -1,4 +1,73 @@
 /*****Privacy Policy*****/
+.top .email-box {
+    width: 400px; /* Adjust the width to your desired value */
+    /* Additional styling properties */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+    padding: 10px ;
+  
+    /* Add other styles as needed */
+  }
+  .top .email-box input{
+  
+      padding: 20px 22px;
+      border-radius: 2px;
+      background-color: transparent;
+      
+      border: 1px solid rgb(85, 85, 85,0.7);
+      box-sizing: border-box;
+    color: white;
+      width: 60%;
+      height: 50px;
+  
+      transition: all 0.2s ease;
+      
+    
+  }
+  
+  
+  
+  
+  .top .email-box input::placeholder {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .top .email-box input:focus {
+    outline: none;
+    border: 1px solid purple;
+  
+  }
+  
+  .top .email-box .btn {
+    margin-left: -75px;
+    color: white;
+    padding: 10px 15px;
+    background-color: purple;
+    border-radius: 3px;
+    border: none;
+    font-weight: 800;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .top .email-box .btn:hover {
+    background-color: #5d2172;
+  }
+  
+  .top .email-box .btn:active {
+    background-color: #5d2172;
+  }
+  
 .container{
     display:flex;
     justify-content: space-between;
@@ -9,6 +78,7 @@
     margin-right:10px;
     margin-left:10px;
 }
+
 
 .privacyHead{
     font-family:'Poppins',sans-serif;

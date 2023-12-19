@@ -41,6 +41,57 @@ header{
     margin-left: 1.65rem;
 
 }
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Hamburger menu styles */
+.menu-toggle {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+}
+
+.links-div {
+    display: flex;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .bars{
+        color: white;
+    }
+    .menu-toggle {
+        display: block; /* Show on smaller screens */
+        font-size: 1.5em; /* Adjust size as needed */
+        margin-right: 10px; /* Add spacing */
+        color: black; /* Set the color to black */
+    }
+
+    .links-div {
+        flex-direction: column; /* Stack links vertically */
+        align-items: flex-start; /* Align links to the left */
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        display: none; /* Hide by default */
+    }
+
+    .links-div.show {
+        display: flex; /* Show when the 'show' class is added */
+    }
+
+    .links-div div {
+        margin: 5px 0; /* Add spacing between links */
+        color: black; /* Set the color to black */
+    }
+
+    /* Change link color inside the media query */
+    .links-div div a {
+        color: black;
+    }
+}
 
 .links-div a{
     cursor: pointer;
@@ -176,6 +227,10 @@ footer{
     text-align: center;
 
 }
+
+  
+  
+
 
 .content .email-box input{
     margin-top: 2px;
